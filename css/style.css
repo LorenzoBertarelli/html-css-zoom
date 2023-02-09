@@ -1,0 +1,52 @@
+/* RESERT */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+}
+
+/* img {
+    max-width: 100%;
+}
+
+.player {
+    width: calc((100% / 7) - (120px / 6));
+} */
+
+/* MAIN */
+main {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: calc((100% / 7) - (70px / 7));
+    padding: 5px;
+    justify-content: center ;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
